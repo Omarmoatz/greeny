@@ -1,0 +1,43 @@
+products:
+        -title
+        -image *
+        -price
+        -flag [new-sale-feature]
+        -tag
+        -rate
+        -subtitle
+        -description
+        -sku
+        -brand:
+                -name
+                -image
+        -review:
+                -user
+                -rate
+                -created_at
+                -content
+        category:
+                -title
+                -image
+order:
+    -sub_total
+    -order_code
+    -created_at
+    -delevery_time
+    -status [Recieved-Processed-Shipped-Delivered]
+
+
+authintication:
+            -login
+            -sign_up
+            -rest_password
+            -change_password 
+            -profile:
+                    -contact_num:
+                                -title [Primary-Secondary]
+                                -number
+                    -Address:
+                            -title [home-office-Bussiness-Academy-Others]
+                            -address                                                                
+                    -payment:
+                            -card_num
